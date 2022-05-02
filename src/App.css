@@ -1,0 +1,32 @@
+/*Reuseable Classes */
+.container{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.sec-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-title .sec-heading h1{
+    font-size: 40px;
+}
+.sec-heading span{
+    display: block;
+    width: 100%;
+    height: 5px;
+    margin-top: 10px;
+    background: linear-gradient(89.72deg, #5B86FF 0.22%, rgba(213, 21, 254, 0.02) 99.75%);
+}
+
+@media (max-width:768px){
+  .sec-title{
+    padding: 0px 16px;
+  }
+  .sec-title .sec-heading h1{
+    text-align: center;
+    font-size: 32px;
+  }
+
+}

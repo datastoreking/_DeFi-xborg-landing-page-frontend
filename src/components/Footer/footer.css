@@ -1,0 +1,32 @@
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     font-family: 'Roboto';
+     padding: 50px 16px;
+}
+.copyright span{
+    color: rgb(52, 37, 139);
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+}
+.footer-nav li a{
+ color: #ffffff;
+}
+.footer-nav li a:hover{
+    text-decoration: underline;
+}
+.footer-nav li {
+    margin-left: 24px;
+}
+
+@media (max-width:768px){
+footer .container{
+    flex-direction: column;
+}
+.footer-nav{
+    margin-top: 24px;
+}
+}

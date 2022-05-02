@@ -1,0 +1,66 @@
+.xborg {
+    padding: 50px 16px 30px 16px;
+    /* background-color: #412a51; */
+}
+.xborg-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+.xborg-img img{
+    width: 100%;
+    position: relative;
+    left: -150px;
+}
+.xborg-content {
+    padding: 0px 0px 0px 40px;
+    font-family: 'Roboto';
+    margin-left: -11rem;
+    width: 650px
+}
+.xborg-content h1{
+    font-size: 60px;
+    font-family: 'Roboto';
+}
+.xborg-content p {
+    line-height: 1.5;
+    font-size: 20px;
+}
+@media (max-width:1500px){
+    .xborg-content {
+        margin-left: 0rem;
+        width: auto;
+    }    
+    .xborg-img img{
+        width: 150%;
+        left: -180px;
+    }    
+}
+@media (max-width:1300px){
+    .xborg {
+        padding: 70px 16px 50px 16px;
+    }
+    .xborg-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    .xborg-img img{
+        width: 100%;
+        margin-bottom: -50px;
+        margin-right: 0px;
+        left: 0px;
+    }
+    .xborg-content {
+        padding: 0px 0px 0px 0px;
+        margin-top: 55px;
+        width: 100%;
+        margin-left: auto;
+    }
+    .xborg-content h1{
+        font-size: 40px;
+    }
+    .xborg-content p {
+        font-size: 13px;
+    }
+}

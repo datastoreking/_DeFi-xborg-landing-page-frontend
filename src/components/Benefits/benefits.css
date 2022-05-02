@@ -1,0 +1,292 @@
+.benefits {
+    margin-top: 100px;
+}
+.benefits-container {
+    max-width: 1100px;
+    margin: 100px auto;
+    padding: 0px 14px;
+
+}
+
+.benefits-wrap {
+    display: flex;
+    justify-content: center;
+    width: 670px;
+    align-items: center;
+    margin: 0 auto 50px auto;
+    /* background: url(../../assets/benefits1.png);
+    background-size: cover;
+    padding: 10px; */
+}
+
+.shape {
+    filter: url(#round1);
+}
+
+.benefits-l {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.benefits-l .title-1 {
+    top: 0;
+    left: 0;
+}
+
+.benefits-l .title-2 {
+    top: 0;
+    right: 0;
+}
+
+.benefits-l h1 {
+    font-size: 40px;
+    /* max-width: 60%; */
+    text-align: center;
+
+}
+
+.benefits-outline {
+    border-radius: 19px;
+}
+
+.benefits-r {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    padding: 24px;
+    /* border-radius: 19px; */
+    border: none;
+    -webkit-clip-path: polygon(0% 16px, 100% 0%, 100% 100%, 16px 100%);
+    clip-path: polygon(0% 16px, 100% 0%, 100% 100%, 16px 100%);
+}
+
+.benefits-r-div p {
+    line-height: 24px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.access {
+    position: relative;
+    right: 100px;
+}
+.access .benefits-r{
+    background: #ba468a;
+}
+
+.yield {
+    position: relative;
+    left: 100px;
+}
+.yield .benefits-r {
+    background: linear-gradient(92.64deg, #415cb5 11.72%, #2445b4 46.34%);
+}
+
+.exclusive {
+    position: relative;
+    right: 100px;
+}
+.exclusive .benefits-r {
+    background: #d49500;
+}
+
+.gaming {
+    position: relative;
+    left: 100px;
+}
+.gaming .benefits-r {
+    background: green;
+}
+@media (max-width:1300px) {
+    .benefits-wrap {
+        width: 670px;
+        background-repeat: no-repeat;
+        padding: 10px;
+    }
+    .shape {
+        filter: none;
+    }
+    .gaming {
+        background: url(../../assets/landscape-green.png);
+        background-size: 100% 100%;
+    }
+    .gaming .benefits-r {
+        background: transparent;
+    }
+    .exclusive {
+        background: url(../../assets/landscape-yellow.png);
+        background-size: 100% 100%;
+    }
+    .exclusive .benefits-r {
+        background: transparent;
+    }
+    .access {
+        background: url(../../assets/landscape-violet.png);
+        background-size: 100% 100%;
+    }
+    .access .benefits-r{
+        background: transparent;
+    }
+    .yield {
+        background: url(../../assets/landscape-blue.png);
+        background-size: 100% 100%;
+    }
+    .yield .benefits-r {
+        background: transparent;
+    }
+}
+
+@media (max-width:768px) {
+    
+    .benefits {
+        margin-bottom: 60px;
+    }
+
+    .benefits-wrap {
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+
+    .col-rev {
+        flex-direction: column-reverse;
+    }
+
+    .benefits-l img {
+        position: relative;
+        width: 100px;
+        margin-bottom: 16px;
+    }
+
+    .benefits-l {
+        min-height: auto;
+        flex-direction: column;
+    }
+
+    .benefits-l h1 {
+        font-size: 28px;
+        max-width: 100%;
+    }
+    .gaming {
+        left: inherit;
+    }
+    .access {
+        right: inherit;
+    }
+    .exclusive {
+        right: inherit;
+    }
+    .yield {
+        left: inherit;
+    }
+    .benefits-wrap {
+        width: 100%;
+        background-repeat: no-repeat;
+        padding: 10px;
+    }
+    .shape {
+        filter: none;
+    }
+    .gaming {
+        background: url(../../assets/landscape-green.png);
+        background-size: 100% 100%;
+    }
+    .gaming .benefits-r {
+        background: transparent;
+    }
+    .exclusive {
+        background: url(../../assets/landscape-yellow.png);
+        background-size: 100% 100%;
+    }
+    .exclusive .benefits-r {
+        background: transparent;
+    }
+    .access {
+        background: url(../../assets/landscape-violet.png);
+        background-size: 100% 100%;
+    }
+    .access .benefits-r{
+        background: transparent;
+    }
+    .yield {
+        background: url(../../assets/landscape-blue.png);
+        background-size: 100% 100%;
+    }
+    .yield .benefits-r {
+        background: transparent;
+    }
+}
+
+@media (max-width:550px) {
+    .benefits-container {
+        margin: 28px auto;
+    }
+
+    .benefits-wrap {
+        display: flex;
+        margin-bottom: 28px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .benefits-r,
+    .benefits-l {
+        padding: 16px;
+    }
+
+    .benefits-r-div p {
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .gaming {
+        left: inherit;
+    }
+    .access {
+        right: inherit;
+    }
+    .exclusive {
+        right: inherit;
+    }
+    .yield {
+        left: inherit;
+    }
+    .benefits-wrap {
+        width: 100%;
+    }
+    .shape {
+        filter: none;
+    }
+    .gaming .benefits-r {
+        background: transparent;
+    }
+    .exclusive .benefits-r {
+        background: transparent;
+    }
+    .access .benefits-r{
+        background: transparent;
+    }
+    .yield .benefits-r {
+        background: transparent;
+    }
+    .gaming {
+        background: url(../../assets/green.png);
+        background-size: 100% 100%;
+    }
+    .exclusive {
+        background: url(../../assets/yellow.png);
+        background-size: 100% 100%;
+    }
+    .access {
+        background: url(../../assets/violet.png);
+        background-size: 110% 100%;
+    }
+    .yield {
+        background: url(../../assets/blue.png);
+        background-size: 110% 100%;
+        background-position-x: -15px;
+    }
+}

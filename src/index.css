@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+  font-family: 'Mokoto';
+  src: url(../src/assets/fonts/MokotoGlitch.ttf);
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #11122D;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+  overflow-x: hidden;
+  background-image: url(../src/assets/BGvector.svg);
+  background-position: 100%;
+  background-size: 100%;
+  background-blend-mode: screen;
+  background-attachment: fixed;
+}
+
+a{
+  text-decoration: none;
+}
+ul li{
+  list-style: none;
+}
+button{
+font-family: 'Roboto', sans-serif;
+background: transparent;
+outline: none;
+border: none;
+color: #ffffff;
+font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media(min-width:1000px){
+  ::-webkit-scrollbar {
+    background-color: transparent;
+    width: 0.5rem;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    background-image: -webkit-gradient(linear, 40% 0, 75% 84%, from(#8247e5), to(#02acd3), color-stop(.6, #1f7ee8));
+    border-radius: 1rem;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 1rem;
+  }
+}
